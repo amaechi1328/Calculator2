@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage("Checkout") {
             steps {
-                git url: 'https://github.com/amaechi1328/Calculator2.git', branch: 'master'
+                git url: 'https://github.com/amaechi1328/Calculator2.git', branch: 'main'
             }
         }
         stage("Compile") {
